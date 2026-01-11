@@ -26,8 +26,8 @@ export default function AnimatedBackground() {
       'rgba(14, 165, 233, 0.15)',
       'rgba(6, 182, 212, 0.15)',
       'rgba(59, 130, 246, 0.15)',
-      'rgba(139, 92, 246, 0.1)',
-      'rgba(168, 85, 247, 0.1)',
+      'rgba(20, 184, 166, 0.1)',
+      'rgba(16, 185, 129, 0.1)',
     ];
 
     for (let i = 0; i < 50; i++) {

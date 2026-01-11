@@ -128,7 +128,7 @@ export default function GrowthFramework() {
 
             <div className="bg-slate-900/30 backdrop-blur-sm border border-blue-500/20 rounded-2xl p-8 sm:p-12 hover:border-blue-400/40 transition-all duration-300 hover:shadow-2xl hover:shadow-blue-500/20">
               <div className="flex items-center gap-4 mb-6">
-                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-blue-500/20 to-violet-500/20 border border-blue-500/30 flex items-center justify-center shadow-lg shadow-blue-500/20">
+                <div className="w-16 h-16 rounded-xl bg-gradient-to-br from-blue-500/20 to-teal-500/20 border border-blue-500/30 flex items-center justify-center shadow-lg shadow-blue-500/20">
                   <Cog className="text-blue-400" size={32} />
                 </div>
                 <div>

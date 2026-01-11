@@ -81,8 +81,8 @@ export default function HowItWorks() {
             {steps.map((step, index) => {
               const colors = [
                 { border: 'border-cyan-500/20', hover: 'hover:border-cyan-400/40', shadow: 'hover:shadow-cyan-500/20', icon: 'from-cyan-500/20 to-blue-500/20', iconBorder: 'border-cyan-500/30' },
-                { border: 'border-blue-500/20', hover: 'hover:border-blue-400/40', shadow: 'hover:shadow-blue-500/20', icon: 'from-blue-500/20 to-violet-500/20', iconBorder: 'border-blue-500/30' },
-                { border: 'border-violet-500/20', hover: 'hover:border-violet-400/40', shadow: 'hover:shadow-violet-500/20', icon: 'from-violet-500/20 to-blue-500/20', iconBorder: 'border-violet-500/30' },
+                { border: 'border-blue-500/20', hover: 'hover:border-blue-400/40', shadow: 'hover:shadow-blue-500/20', icon: 'from-blue-500/20 to-teal-500/20', iconBorder: 'border-blue-500/30' },
+                { border: 'border-teal-500/20', hover: 'hover:border-teal-400/40', shadow: 'hover:shadow-teal-500/20', icon: 'from-teal-500/20 to-blue-500/20', iconBorder: 'border-teal-500/30' },
               ];
               const color = colors[index % colors.length];
               return (

@@ -36,13 +36,13 @@ export default function Home() {
       description:
         'Task flows, data handling, reporting, and cross-system synchronization.',
       link: '/solutions#operations',
-      colors: 'border-orange-500/20 hover:border-orange-400/50 hover:shadow-orange-500/20 group-hover:text-orange-400',
+      colors: 'border-cyan-500/20 hover:border-cyan-400/50 hover:shadow-cyan-500/20 group-hover:text-cyan-400',
     },
     {
       title: 'Custom Websites & Web Applications',
       description: 'Purpose-built interfaces designed to support automation logic.',
       link: '/solutions#web-apps',
-      colors: 'border-sky-500/20 hover:border-sky-400/50 hover:shadow-sky-500/20 group-hover:text-sky-400',
+      colors: 'border-emerald-500/20 hover:border-emerald-400/50 hover:shadow-emerald-500/20 group-hover:text-emerald-400',
     },
   ];
 
@@ -192,7 +192,7 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <p className="text-xl sm:text-xl font-semibold text-orange-400 text-center">
+          <p className="text-xl sm:text-xl font-semibold text-cyan-400 text-center">
             Growth exposes weak systems.
           </p>
         </div>
@@ -226,7 +226,7 @@ export default function Home() {
 
       <section className="relative py-10 sm:py-24 px-5 sm:px-6 lg:px-8 bg-slate-900/20">
         <div className="max-w-4xl mx-auto">
-          <div className="bg-gradient-to-br from-amber-500/10 via-slate-900/50 to-orange-500/10 backdrop-blur-sm border-2 border-amber-500/40 rounded-2xl p-7 sm:p-8 md:p-12 shadow-xl shadow-amber-500/10">
+          <div className="bg-gradient-to-br from-cyan-500/10 via-slate-900/50 to-emerald-500/10 backdrop-blur-sm border-2 border-cyan-500/40 rounded-2xl p-7 sm:p-8 md:p-12 shadow-xl shadow-cyan-500/10">
             <h2 className="text-3xl sm:text-3xl md:text-4xl font-bold mb-5 sm:mb-6 text-slate-100">
               The Mistake Most Companies Will Make
             </h2>
@@ -240,13 +240,13 @@ export default function Home() {
               {['One chatbot here', 'One automation there', 'No unified logic', 'No ownership', 'No scalability'].map(
                 (item, index) => (
                   <li key={index} className="flex items-center gap-3 text-base sm:text-base text-slate-300">
-                    <span className="text-amber-400 text-lg">—</span>
+                    <span className="text-cyan-400 text-lg">—</span>
                     {item}
                   </li>
                 )
               )}
             </ul>
-            <p className="text-xl sm:text-xl font-semibold text-amber-400 mb-4 sm:mb-4">
+            <p className="text-xl sm:text-xl font-semibold text-cyan-400 mb-4 sm:mb-4">
               Fragmented automation becomes technical debt.
             </p>
             <p className="text-lg sm:text-lg text-slate-300">
@@ -285,7 +285,7 @@ export default function Home() {
                 description:
                   'Systems are deployed, monitored, and improved based on real usage. Automation is treated as infrastructure — not a one-off project.',
                 icon: Shield,
-                colors: 'border-orange-500/30 from-orange-500/20 to-amber-500/20 text-orange-400',
+                colors: 'border-teal-500/30 from-teal-500/20 to-emerald-500/20 text-teal-400',
               },
             ].map((step, index) => (
               <div
@@ -377,7 +377,7 @@ export default function Home() {
                 'border-emerald-500/30 text-emerald-400',
                 'border-teal-500/30 text-teal-400',
                 'border-blue-500/30 text-blue-400',
-                'border-sky-500/30 text-sky-400',
+                'border-cyan-500/30 text-cyan-400',
               ];
               const colorClass = colors[index % colors.length];
               return (
@@ -412,7 +412,7 @@ export default function Home() {
           </p>
           <Link
             to="/contact"
-            className="inline-flex items-center justify-center px-7 sm:px-8 py-4 sm:py-4 bg-gradient-to-r from-orange-500 to-amber-500 text-white text-lg sm:text-lg font-semibold rounded-lg hover:shadow-2xl hover:shadow-orange-500/50 transition-all duration-300 hover:scale-105 shadow-lg shadow-orange-500/30 animate-pulse-glow-orange"
+            className="inline-flex items-center justify-center px-7 sm:px-8 py-4 sm:py-4 bg-gradient-to-r from-cyan-500 to-emerald-500 text-white text-lg sm:text-lg font-semibold rounded-lg hover:shadow-2xl hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-105 shadow-lg shadow-cyan-500/30 animate-pulse-glow"
           >
             Request an Automation Audit
             <ArrowRight className="ml-2" size={20} />
@@ -432,9 +432,9 @@ export default function Home() {
                 'border-emerald-500/30 hover:border-emerald-400/50',
                 'border-teal-500/30 hover:border-teal-400/50',
                 'border-blue-500/30 hover:border-blue-400/50',
-                'border-sky-500/30 hover:border-sky-400/50',
-                'border-orange-500/30 hover:border-orange-400/50',
-                'border-amber-500/30 hover:border-amber-400/50',
+                'border-cyan-500/30 hover:border-cyan-400/50',
+                'border-emerald-500/30 hover:border-emerald-400/50',
+                'border-teal-500/30 hover:border-teal-400/50',
               ];
               const colorClass = colors[index % colors.length];
               return (
